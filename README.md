@@ -8,7 +8,13 @@ In this course you will learn how to create Spring Boot microservices that compl
 
 You will not use any CQRS framework, but you will write every line of code that is required to effectively create your own CQRS and Event Sourcing framework using Java and Apache Kafka. While this might sound a little daunting, you will be carefully guided step by step, and gain all the know-how and confidence to become an expert in CQRS and Event Sourcing.
 
-By the end of this course you will know how to:
+
+## What is an Event?
+Events are objects that describe something that has occurred in the application. A typical source of events is the aggregate. When something important has occurred within the aggregate, it will raise an event. 
+
+
+
+## Important for Project: 
 
 Handle commands and raise events.
 
@@ -40,7 +46,7 @@ Replay the event store to recreate the entire read database into a different dat
 
 The ultimate goal of this course is to take a deep-dive into the world of CQRS and Event Sourcing to enable you to create microservices that are super decoupled and extremely scalable.
 
-What you’ll learn
+## What is important
 CQRS
 Event Sourcing
 Creating DDD-Oriented Microservices
