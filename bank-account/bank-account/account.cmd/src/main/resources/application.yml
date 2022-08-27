@@ -1,14 +1,16 @@
+LOG: 'null'
 server:
     port: 5000
-
 spring:
     data:
-       mongodb:
-           authentication-database:
-           host: localhost
-           database: bankAccount
+        mongodb:
+            authentication-database: 'null'
+            database: bankAccount
+            host: localhost
+            password: urunov1987
+            port: 27017
     kafka:
-      producer:
-          bootstrap-servers: localhost:9092
-          key-serializer: org.apache.kafka.common.serialization.StringSerializer
-          value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+        producer:
+            bootstrap-servers: localhost:9092
+            key-serializer: org.apache.kafka.common.serialization.StringSerializer
+            value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

@@ -8,5 +8,5 @@ package com.tachbank.account.common.dto;
 public enum AccountType {
     //
     SAVING,
-    CuRRENT
+    CURRENT
 }
