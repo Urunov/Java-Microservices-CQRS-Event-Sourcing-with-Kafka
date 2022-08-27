@@ -16,15 +16,19 @@ Events are objects that describe something that has occurred in the application.
 
 ## Important for Project: 
 
-Handle commands and raise events.
+1. Handle commands and raise events.
 
-Use the mediator pattern to implement command and query dispatchers.
+2. Use the mediator pattern to implement command and query dispatchers.
 
-Create and change the state of an aggregate with event messages.
+   - Behavioral Design Pattern
+   - Promotes loose coupling by preventing objects from referring to each other explicitly.
+   - Simplifies communication between objects by introducing a single object known as the mediator that manages the distribution of messages among other objects.
 
-Implement an event store / write database in MongoDB.
+3. Create and change the state of an aggregate with event messages.
 
-Create a read database in MySQL.
+4. Implement an event store / write database in MongoDB.
+
+5. Create a read database in MySQL.
 
 Apply event versioning.
 
