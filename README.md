@@ -25,7 +25,10 @@ Events are objects that describe something that has occurred in the application.
    - Simplifies communication between objects by introducing a single object known as the mediator that manages the distribution of messages among other objects.
 
 3. Create and change the state of an aggregate with event messages.
-
+   ## What is an Aggregate?
+    - An Aggregate is an entity or group of entities that is always kept in a consistent state. The aggregate root is the entity within the aggregate that is responsible for maintainning this consistent state. 
+    - This makes the aggregate the primary building block for implementing a command model in any CQRS based application.
+    
 4. Implement an event store / write database in MongoDB.
 
 5. Create a read database in MySQL.
