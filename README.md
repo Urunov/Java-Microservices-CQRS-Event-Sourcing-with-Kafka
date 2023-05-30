@@ -12,7 +12,10 @@ You will not use any CQRS framework, but you will write every line of code that 
 ## What is an Event?
 Events are objects that describe something that has occurred in the application. A typical source of events is the aggregate. When something important has occurred within the aggregate, it will raise an event. 
 
+## Design Pattern : Mediator [pattern](https://github.com/Urunov/Interview-Preparation-WAY) 
 
+- Promotes loose coupling by preventing objects from refferring to each other explicitly
+- Simplifies communication beetween objects by introducing a single object known as the mediator that manages the distribution of messages among other objects.
 
 ## Important for Project: 
 
