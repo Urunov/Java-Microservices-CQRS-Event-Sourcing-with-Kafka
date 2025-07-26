@@ -78,3 +78,14 @@ Replay the Event Store and Recreate the Read Database in a Different Database Ty
 
 The resource address [here](https://www.udemy.com/course/java-microservices-cqrs-event-sourcing-with-kafka/learn/lecture/29493542#overview) is it.
 ![CQRS](https://user-images.githubusercontent.com/11626327/186347108-4266db5b-33eb-4632-bafd-7d419c05a8c5.JPG)
+
+
+
+
+## Fundamental Structure of kafka architecture
+
+<img width="1406" height="866" alt="image" src="https://github.com/user-attachments/assets/30aac10a-7caf-472e-a944-5199f3144495" />
+
+<img width="1673" height="713" alt="image" src="https://github.com/user-attachments/assets/892edc7e-1118-4f4e-bad6-947a289ace14" />
+
+
